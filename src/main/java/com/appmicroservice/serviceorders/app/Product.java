@@ -1,4 +1,4 @@
-package com.appmicroservice.serviceorders.models;
+package com.appmicroservice.serviceorders.app;
 
 import java.util.Date;
 

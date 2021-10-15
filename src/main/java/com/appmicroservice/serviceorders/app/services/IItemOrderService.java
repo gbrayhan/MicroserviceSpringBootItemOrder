@@ -1,6 +1,6 @@
-package com.appmicroservice.serviceorders.models.services;
+package com.appmicroservice.serviceorders.app.services;
 
-import com.appmicroservice.serviceorders.models.ItemOrder;
+import com.appmicroservice.serviceorders.app.ItemOrder;
 
 import java.util.List;
 

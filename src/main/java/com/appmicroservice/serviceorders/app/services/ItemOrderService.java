@@ -1,7 +1,7 @@
-package com.appmicroservice.serviceorders.models.services;
+package com.appmicroservice.serviceorders.app.services;
 
-import com.appmicroservice.serviceorders.models.ItemOrder;
-import com.appmicroservice.serviceorders.models.Product;
+import com.appmicroservice.serviceorders.app.ItemOrder;
+import com.appmicroservice.serviceorders.app.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -13,7 +13,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 @Service
-public class ItemOrderService implements IItemOrderService{
+public class ItemOrderService implements IItemOrderService {
     @Autowired
     private RestTemplate clientRest;
 
